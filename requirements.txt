@@ -1,3 +1,9 @@
-python3
-customtkinter
-sqlite3
+import sys
+import customtkinter
+import tkinter 
+from tkinter import *
+from tkinter import messagebox
+import os
+import sqlite3
+from tkinter import filedialog
+from PIL import Image
