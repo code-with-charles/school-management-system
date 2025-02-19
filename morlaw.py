@@ -25,15 +25,7 @@ def resource_path(relative_path):
         base_path=os.path.abspath(".")
     return os.path.join(base_path,relative_path)
 
-def get_writable_db_path(db_name):
-    #this copies the database to a writeable location
-    home_dir=os.path.expanduser("-")
-    db_destination=os.path.join(home_dir,db_name)
-    
-    if not os.path.exists(db_destination):
-        shutil.copyfile(resource_path(db_name),db_destination)
-    return db_destination
-      
+
        
 background_image=customtkinter .CTkImage(light_image=Image.open( resource_path('pics/images (3).jpeg')),
                               dark_image=Image.open(resource_path('pics/images (3).jpeg')),
