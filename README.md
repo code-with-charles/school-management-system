@@ -1,7 +1,8 @@
 School Management System - Python-Based Solution
 The School Management System is a user-friendly desktop application built using Python to streamline school operations, including student records, attendance, and academic performance tracking. It provides an intuitive interface and robust database management to enhance administrative efficiency.
 
-![Screenshot 2024-11-27 224922](https://github.com/user-attachments/assets/c43d0c5a-b939-4658-933e-935a73c74ce9)
+![image](https://github.com/user-attachments/assets/77aff124-7dec-44c7-a524-c61a4b76fe93)
+
 
 Key Features
 Student Management – Add, update, and delete student details.
